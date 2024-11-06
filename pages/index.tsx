@@ -1,12 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import Mainhead from "@/components/mainhead";
 import AboutUs from "@/components/aboutus";
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <Head>
         <title>PT Muara Toba Persada</title>
         <meta
@@ -18,6 +17,6 @@ export default function Home() {
       </Head>
       <Mainhead />
       <AboutUs />
-    </>
+    </div>
   );
 }
