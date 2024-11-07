@@ -12,11 +12,11 @@ const AboutUs: React.FC = () => {
           </strong>
           Dengan tim berpengalaman yang siap menangani berbagai kasus, dan
           bekerja memberikan progress yang positif dengan tingkat keberhasilan
-          tinggi dengan efektifitas maksimal.
+          yang tinggi.
         </p>
       </div>
       <div className="container mx-auto px-11 text-center mt-28">
-        <h2>Team Kami</h2>
+        <h2 className="font-bold">Team Kami</h2>
         <div className="mt-2">mtp &ldquo;team-work&rdquo;</div>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 lg:gap-20">
           <Member
