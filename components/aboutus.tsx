@@ -7,9 +7,9 @@ const AboutUs: React.FC = () => {
       <div className="container mx-auto px-11">
         <p className="leading-tight max-w-5xl mx-auto text-4xl tracking-tight">
           <strong>
-            Kami memberikan layanan penagihan secara profesional dan sesuai
-            dengan regulasi yang berlaku.{" "}
-          </strong>
+            Kami memberikan layanan penagihan secara profesional, sesuai
+            dengan regulasi yang berlaku. 
+          </strong> 
           Dengan tim berpengalaman yang siap menangani berbagai kasus, dan
           bekerja memberikan progress yang positif dengan tingkat keberhasilan
           yang tinggi.
