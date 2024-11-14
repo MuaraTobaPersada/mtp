@@ -47,8 +47,8 @@ const Skills: React.FC = () => {
               opacity: opacityForBlock(progress, 1),
             }}
           >
-            Menunjukan kinerja maksimal dan menjaga profesionalitas terhadap
-            target pencapaian yang diberikan oleh Bank.
+            Kami selalu memberikan hasil yang positif, terhadap target pencapaian
+            yang diberikan oleh bank.
           </span>
           <span
             className={`${s0.skillText} inline-block`}
@@ -57,7 +57,7 @@ const Skills: React.FC = () => {
             }}
           >
             Kunci keberhasilan kami terletak pada loyalitas dan optimisme
-            positif dari seluruh jajaran Direksi, Staff, dan Karyawan.
+            dari seluruh jajaran Direksi, Staff, dan Karyawan.
           </span>
         </div>
       </div>
