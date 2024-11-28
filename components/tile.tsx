@@ -43,7 +43,7 @@ export const TileWrapper: React.FC<WrapperProps> = ({
       <div
         ref={refContainer}
         className="relative bg-black text-white"
-        style={{ height: numOfPages * 100 + "vh" }}
+        style={{ height: numOfPages * 100 + 'vh' }}
       >
         {children}
       </div>
@@ -79,7 +79,7 @@ export const Tile: React.FC<Props> = ({ page, renderContent }) => {
       ref={refContainer}
       className="absolute top-0 w-full"
       style={{
-        pointerEvent: progress >= 0 || progress >= 1 ? "none" : undefined,
+        pointerEvent: progress <= 0 || progress >= 1 ? "none" : undefined,
         opacity,
       }}
     >

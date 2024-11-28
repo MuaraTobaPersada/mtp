@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
 
 export const WorkedContainer: React.FC = ({ children }) => (
   <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
@@ -14,16 +14,16 @@ export const WorkedBackground: React.FC = () => (
   </div>
 );
 
-export const WorkedLeft: React.FC<{ progress: number }> = ({
-  children,
-  progress,
-}) => {
+export const WorkedLeft: React.FC<{
+  children: React.ReactNode;
+  progress: number;
+}> = ({ children, progress }) => {
   let translateY = Math.max(0, 50 - progress * 3 * 50);
   if (progress > 0.85) translateY = Math.max(-50, -(progress - 0.85) * 2 * 50);
 
   return (
     <div
-      className="flex flex-col items-center justify-center text-3xl lg:text-3xl h-[3vh] lg:h-auto"
+      className="flex flex-col items-center justify-center text-3xl lg:text-3xl h-[30vh] lg:h-auto"
       style={{
         transform: `translateY(${translateY}px)`,
       }}
@@ -33,10 +33,10 @@ export const WorkedLeft: React.FC<{ progress: number }> = ({
   );
 };
 
-export const WorkedRight: React.FC<{ progress: number }> = ({
-  children,
-  progress,
-}) => {
+export const WorkedRight: React.FC<{
+  children: React.ReactNode;
+  progress: number;
+}> = ({ children, progress }) => {
   let translateY = Math.max(-50, -(progress - 0.5) * 50);
   return (
     <div

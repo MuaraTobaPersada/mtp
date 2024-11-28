@@ -19,27 +19,45 @@ const Works = () => (
         renderContent={({ progress }) => (
           <WorkedContainer>
             <WorkedLeft progress={progress}>
-              <div className="">Gambar Kantor</div>
-              <div className="text-4xl md:text-5xl font-semibold tracking-tight">
+              <div className="text-center justify-center items-center">
+                Gambar Kantor
+              </div>
+              <div className="text-4xl md:text-5xl font-semibold text-center justify-center items-center tracking-tight">
+                Ruangan Administrasi.
               </div>
             </WorkedLeft>
             <WorkedRight progress={progress}>
               <Image
                 src="/assets/office/adm.png"
-                layout="responsive"
                 width={840}
                 height={1620}
-                alt="Ruangan Admin"
+                alt="Ruangan Adm"
               />
             </WorkedRight>
           </WorkedContainer>
         )}
       ></Tile>
+
       <Tile
         page={1}
         renderContent={({ progress }) => (
           <WorkedContainer>
-            <WorkedLeft progress={progress}>Fasilitas Kami</WorkedLeft>
+            <WorkedLeft progress={progress}>
+              <div className="text-center justify-center items-center">
+                Gambar Kantor
+              </div>
+              <div className="text-4xl md:text-5xl font-semibold text-center justify-center items-center tracking-tight">
+                Ruangan Meeting 1.
+              </div>
+            </WorkedLeft>
+            <WorkedRight progress={progress}>
+              <Image
+                src="/assets/office/meet1.png"
+                width={840}
+                height={1620}
+                alt="Ruangan Meeting 1"
+              />
+            </WorkedRight>
           </WorkedContainer>
         )}
       ></Tile>

@@ -7,7 +7,7 @@ const AboutUs: React.FC = () => {
       <div className="container mx-auto px-11">
         <p className="leading-tight max-w-5xl mx-auto text-4xl tracking-tight">
           <strong>
-            Kami memberikan layanan penagihan secara profesional.</strong> Dengan tim berpengalaman yang siap bekerja dengan progress yang positif.
+            Kami memberikan layanan penagihan secara profesional.</strong> Dengan tim berpengalaman yang siap bekerja memberikan progress yang positif.
         </p>
       </div>
       <div className="container mx-auto px-11 text-center mt-28">
