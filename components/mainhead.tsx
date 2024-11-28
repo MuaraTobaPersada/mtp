@@ -43,7 +43,7 @@ const Mainhead: React.FC = () => {
           Situs Resmi PT. Muara Toba Persada
         </h1>
         <h2 className="mb-2 text-2xl xl:text-3xl tracking-tight">
-          Solusi perusahaan layanan jasa penagihan terpercaya di Indonesia.
+          Solusi layanan jasa penagihan terpercaya di Indonesia.
         </h2>
       </div>
       <div className={`flex-grow-0 pb-10 md:pb-10 transition-all duration-1000 animate-bounce ${imageLoaded ? 'opacity-100' : 'opacity-0 -translate-y-10'}`}>
